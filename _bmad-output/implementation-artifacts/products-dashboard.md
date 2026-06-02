@@ -1,7 +1,7 @@
-# Products Dashboard Implementation Artifact
+# Photos Dashboard Implementation Artifact
 
 ## Overview
-A React dashboard scaffold was created under `frontend/` to display product-like photo items using the JSONPlaceholder photos API.
+A React dashboard scaffold was created under `frontend/` to display photo items using the JSONPlaceholder photos API.
 
 ## Features implemented
 - Fetches from `https://jsonplaceholder.typicode.com/photos?_limit=120`
@@ -12,10 +12,10 @@ A React dashboard scaffold was created under `frontend/` to display product-like
 
 ## Files created
 - `frontend/package.json`
-- `frontend/vite.config.js`
+- `frontend/vite.config.ts`
 - `frontend/index.html`
-- `frontend/src/main.jsx`
-- `frontend/src/App.jsx`
+- `frontend/src/main.tsx`
+- `frontend/src/App.tsx`
 - `frontend/src/styles.css`
 
 ## Notes

@@ -1,12 +1,12 @@
-# Products Dashboard Planning Artifact
+# Photos Dashboard Planning Artifact
 
 ## Project Goal
-Build a responsive React products dashboard that uses the JSONPlaceholder photos API to display product-like image cards, support search by title, and provide a detail view for selected items.
+Build a responsive React photos dashboard that uses the JSONPlaceholder photos API to display image cards, support search by title, and provide a detail view for selected items.
 
 ## Product Brief
 ### Who
-- Users who need a lightweight product catalog or image dashboard experience
-- Early-stage demo users and testers who want to browse items quickly
+- Users who need a lightweight image dashboard experience
+- Early-stage demo users and testers who want to browse photos quickly
 
 ### What
 - A responsive React web app
@@ -16,13 +16,13 @@ Build a responsive React products dashboard that uses the JSONPlaceholder photos
 
 ### Why
 - Demonstrates a reusable React dashboard pattern with API integration
-- Provides search and detail exploration for product-style content
+- Provides search and detail exploration for photo content
 - Supports rapid prototyping and UI validation without needing a real backend
 
 ## Core Requirements
-- Display a list/grid of product items using the JSONPlaceholder photos endpoint
-- Search products by title in real time
-- Show a selected product’s details including full image, title, album ID, and photo ID
+- Display a list/grid of photo items using the JSONPlaceholder photos endpoint
+- Search photos by title in real time
+- Show a selected photo’s details including full image, title, album ID, and photo ID
 - Keep the UI responsive across desktop and mobile viewports
 - Handle loading states and API errors gracefully
 
@@ -30,13 +30,13 @@ Build a responsive React products dashboard that uses the JSONPlaceholder photos
 ### Frontend
 - React + Vite
 - Single-page layout with two main panels:
-  - product list/search panel
-  - selected product detail panel
+  - photo list/search panel
+  - selected photo detail panel
 - Responsive CSS for desktop and mobile
 
 ### Data
 - Data source: `https://jsonplaceholder.typicode.com/photos?_limit=120`
-- Product model fields used:
+- Photo model fields used:
   - `id`
   - `albumId`
   - `title`
@@ -44,7 +44,7 @@ Build a responsive React products dashboard that uses the JSONPlaceholder photos
   - `url`
 
 ## Epics and Stories
-### Epic 1: Product browsing experience
+### Epic 1: Photo browsing experience
 - Story 1.1: Scaffold React app with Vite
 - Story 1.2: Fetch photo data from JSONPlaceholder
 - Story 1.3: Display image cards with thumbnails and titles
@@ -52,7 +52,7 @@ Build a responsive React products dashboard that uses the JSONPlaceholder photos
 
 ### Epic 2: Search and filtering
 - Story 2.1: Add search input UI
-- Story 2.2: Implement title-based filtering in the product list
+- Story 2.2: Implement title-based filtering in the photo list
 - Story 2.3: Show result count and empty state for no matches
 
 ### Epic 3: Detail view and interaction
@@ -67,10 +67,10 @@ Build a responsive React products dashboard that uses the JSONPlaceholder photos
 
 ## Recommended Output Files
 - `frontend/package.json`
-- `frontend/vite.config.js`
+- `frontend/vite.config.ts`
 - `frontend/index.html`
-- `frontend/src/main.jsx`
-- `frontend/src/App.jsx`
+- `frontend/src/main.tsx`
+- `frontend/src/App.tsx`
 - `frontend/src/styles.css`
 
 ## Next Steps
